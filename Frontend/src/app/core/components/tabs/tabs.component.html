@@ -1,0 +1,31 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@474&display=swap" rel="stylesheet">
+</head>
+
+<nav class="navbar">
+    <div class="tab" (click)="navegar('home')">
+          <button><h3>
+            <svg id="homie" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="20" height="20"><path d="M33,19a1,1,0,0,1-.71-.29L18,4.41,3.71,18.71a1,1,0,0,1-1.41-1.41l15-15a1,1,0,0,1,1.41,0l15,15A1,1,0,0,1,33,19Z"/><path d="M18,7.79,6,19.83V32a2,2,0,0,0,2,2h7V24h6V34h7a2,2,0,0,0,2-2V19.76Z"/></svg>
+          </h3></button>
+    </div>
+    <div class="tab" (click)="navegar('ventas')">
+        <button><h3>Ventas</h3></button>
+    </div>
+    <div class="tab" (click)="navegar('clientes')">
+        <button><h3>Clientes</h3></button>
+    </div>
+    <div class="tab" (click)="navegar('inventario')">
+        <button><h3>Inventario</h3></button>
+    </div>
+    <div class="tab" (click)="navegar('proveedores')">
+        <button><h3>Proveedores</h3></button>
+    </div>
+    <div class="tab" (click)="logout()">
+        <button  >
+            <svg id="logout" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="20" height="20"><path d="M23,4H7A2,2,0,0,0,5,6V30a2,2,0,0,0,2,2H23a2,2,0,0,0,2-2V24H15.63a1,1,0,0,1-1-1,1,1,0,0,1,1-1H25V6A2,2,0,0,0,23,4Z"/><path d="M28.16,17.28a1,1,0,0,0-1.41,1.41L30.13,22H25v2h5.13l-3.38,3.46a1,1,0,1,0,1.41,1.41L34,23.07Z"/></svg>
+            <h3 id="Logout">Cerrar sesión</h3>
+        </button>
+    </div>
+</nav>

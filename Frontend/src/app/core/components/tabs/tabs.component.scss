@@ -1,0 +1,62 @@
+.navbar{
+    background-color: #d4bee3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 2rlh;
+    align-items: center;
+    .tab{
+        height: 2rlh;
+    }
+    button{
+        background-color: #d4bee3;
+        border: 20px;
+        border-color: #d4bee3;
+        align-self: center;
+        height: 2rlh;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #logout{
+        fill: #6F3D86;
+    }
+    #Logout{
+        font-size: 10px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    #homie{
+        fill: #fff;
+    }
+    button:hover{
+        background-color: #8D62A0;
+        height: 2rlh;
+        #logout{
+            fill: #ffffff;
+        }
+    }
+    button:active{
+        background-color: #8D62A0;
+    }
+    h3{
+        color: #fff;
+        align-self: center;
+        margin-top: 0px;
+        font-family: "Kumbh Sans";
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 20px
+    }
+}
+
+.kumbh-sans-nv {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.material-symbols-outlined{
+    color: #fff;
+    margin-top: 5px;
+}
+
